@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisar Registros</title>
+</head>
+
+    <body>
+        <form action="pesq.php " method="post" name="formPesq">
+            <label for="txtNome">Insira todo ou arte do nome a ser pesquisado: </label>
+            <input type="text" name="txtNome" id="txtNome" maxlength=40 />
+            <input type="submit" value="Pesquisar"/>
+            <input type="reset" value="Limpar" onclick="document.getElementById('txtNome');"/>
+            <input type="button" value="Menu" onclick="location.href='index.html';" />
+        </form>
+    </body>
+   
+</html>
+

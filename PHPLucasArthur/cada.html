@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cada</title>
+</head>
+
+<body>
+    <form action="cada.php" method="post">
+
+        <h2>Digite o nome completo
+            <input type="text" placeholder="Nome Completo" name="txtNome" id="txtNome" maxlength="40" required>
+        </h2>
+        <h2>Informe o e-mail:
+            <input type="text" placeholder="E-mail" name="txtEmail" id="txtEmail" maxlength="30" required>
+        </h2>
+        <h2>Informe a senha: 
+            <input type="password" placeholder="Senha" name="txtSenha" id="txtSenha" maxlength="8" required>
+        </h2>
+        <h2>Informe o sexo:
+            <input type="radio" name="txtSexo" id="txtSexo" required>M</input>
+            <input type="radio" name="txtSexo" id="txtSexo" required>F</input>
+        </h2>
+        <h2>Informe a data:
+            <input type="date" id="dtData" name="dtData" required>
+        </h2>
+
+        <input type="submit" value="Cadastrar" />
+        <input type="reset" value="Limpar" onclick="document.getElementById('txtNome', 'txtEmail', 'txtSenha', 'txtSexo');" />
+        <input type="button" value="Menu" onclick="location.href='index.html';" />
+    </form>
+</body>
+
+</html>
